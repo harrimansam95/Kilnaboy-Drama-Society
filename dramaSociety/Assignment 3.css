@@ -1,0 +1,338 @@
+@charset "utf-8";
+#container  {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+
+
+#logo {
+	position: absolute;
+	left: 19%;
+	top: 2%;
+	width: 11%;
+	height: 15%;
+
+
+
+}
+
+#navbar ul li   , ul li a{
+	font-variant: small-caps;
+	display: inline;
+	font-size: large;
+	padding-right: 3%;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+#navbar {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	word-spacing: -7px;
+	background-color: #3E3E3E;
+	text-decoration: none;
+	width: 75%;
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	-webkit-box-shadow: 0px 0px 1px 4px #666666;
+	box-shadow: 0px 0px 1px 4px #666666;
+	margin-bottom: 2em;
+}
+
+#footer {
+	clear: both;
+	background-color: #3E3E3E;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	float: none;
+	word-spacing: 9px;
+	text-decoration: none;
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	-webkit-box-shadow: 0px 0px 1px 4px #666666;
+	box-shadow: 0px 0px 1px 4px #666666;
+	margin-bottom: 2em;
+	margin-top: 2em;
+
+}
+#container #maini {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3E3E3E;
+	-webkit-box-shadow: 0px 0px 1px 4px #717171;
+	box-shadow: 0px 0px 1px 4px #717171;
+	width: 74%;
+	padding-top: 21px;
+	padding-right: 21px;
+	padding-bottom: 21px;
+	padding-left: 21px;
+}
+#container #maini #main {
+	margin-left: 107px;
+	margin-right: auto;
+	width: 73%;
+}
+#container #thumbs {
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+}
+
+
+
+body {
+	background-image: url(images/b676a-stage2b2.jpg);
+	background-size: 100% 100%;
+	
+
+}
+#slideshow {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #3E3E3E;
+	-webkit-box-shadow: 0px 0px 1px 4px #666666;
+	box-shadow: 0px 0px 1px 4px #666666;
+	padding-top: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	width: 75%;
+	height: 18%;
+	margin-bottom: 2em;
+}
+#container #slideshow #currentImage2 {
+	width: 66%;
+	height: 47%;
+}
+
+.slideshowcontrols {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-variant: small-caps;
+	text-decoration: none;
+	width: 7%;
+	padding-top: 1em;
+}
+#section1 , #section2, #section3{
+	margin-right: 2%;
+	width: 22%;
+	margin-left: 5%;
+	display: inline-block;
+	text-align: left;
+	background-color: #636363;
+	margin-bottom: 6%;
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+#mainii #section3 .links {
+	display: block;
+	text-align: center;
+	padding-bottom: 1%;
+
+}
+#container #slideshow #next {
+	display: inline;
+	float: right;
+	position: static;
+	top: 70%;
+	font-size: xx-large;
+	right: 24%;
+}
+#container #slideshow #prev {
+	float: left;
+	display: inline;
+	position: static;
+	left: 25%;
+	top: 70%;
+	font-size: xx-large;
+}
+
+
+#container #header h1 {
+	font-size: 4em;
+
+}
+#currentImage {
+	width: 50%;
+	height: 37%;
+	position: static;
+	border-width: thin;
+	border-style: solid;
+	-webkit-box-shadow: 0px 0px #666666;
+	box-shadow: 0px 0px #666666;
+}
+#container #mainii #section3 {
+	float: none;
+	text-align: center;
+	margin-bottom: -56px;
+	width: 21%;
+
+
+
+}
+body,td,th {
+	color: #FFFFFF;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+#container form {
+	display: inline;
+	float: left;
+	width: 0px;
+}
+#container fieldset {
+	background-color: #3A3A3A;
+	width: 76%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#container #information_main {
+	width: 34%;
+	padding-top: 3%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+#container #secioni {
+	background-color: #3E3E3E;
+	-webkit-box-shadow: 0px 0px 1px 4px #767676;
+	box-shadow: 0px 0px 1px 4px #767676;
+	width: 78%;
+	height: 59%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container #main_information {
+	width: 74%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 0px 1px 4px #666666;
+	box-shadow: 0px 0px 1px 4px #666666;
+	background-color: #3E3E3E;
+	padding-top: 19px;
+	padding-right: 19px;
+	padding-bottom: 19px;
+	padding-left: 19px;
+}
+#secioni #community  {
+	width: 49%;
+	height: 38%;
+	padding-top: 46px;
+	padding-right: 46px;
+	padding-bottom: 46px;
+	padding-left: 46px;
+
+}
+#secioni {
+	background-color: #3E3E3E;
+	width: 100%;
+}
+#container #main {
+	width: 64%;
+	height: 24%;
+}
+#container #mainii {
+	display: inline-block;
+	float: left;
+}
+#container #mainiii {
+	margin-left: auto;
+	margin-right: auto;
+	width: 38%;
+}
+#container #mainiii #section3 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87%;
+	padding-top: 8%;
+	padding-right: 8%;
+	padding-bottom: 8%;
+	padding-left: 8%;
+	text-align: center;
+}
+#mainiii #section3 .links {
+}
+#container #main5 {
+	width: 64%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3A3A3A;
+	padding-top: 6%;
+	padding-right: 6%;
+	padding-bottom: 6%;
+	padding-left: 6%;
+	-webkit-box-shadow: 0px 0px 1px 4px #6D6D6D;
+	box-shadow: 0px 0px 1px 4px #6D6D6D;
+}
+#container #main5 #castingcall {
+	width: 10%;
+	height: 0%;
+	float: left;
+	padding-right: 25px;
+}
+
+#container #main5 #img5 {
+	width: 68%;
+	height: 6%;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding-right: 24px;
+}
+#container #mainiii #section7 {
+	width: 14%;
+	margin-right: auto;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#mainiii #section7 .links {
+	text-align: left;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	line-height: 3em;
+}
+
+
+#container #mainiii {
+	background-color: #3A3A3A;
+	-webkit-box-shadow: 0px 0px 1px 4px #717171;
+	box-shadow: 0px 0px 1px 4px #717171;
+	width: 68%;
+	height: 21%;
+	padding-top: 4%;
+	padding-right: 4%;
+	padding-bottom: 4%;
+	padding-left: 4%;
+}

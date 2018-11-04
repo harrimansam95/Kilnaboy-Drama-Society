@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function swap(num){
+	document.getElementById("currentImage2").src="images/img" + num + ".jpg";
+	}
+</script>
+<meta charset="utf-8">
+<title>Kilnaboy Drama Society</title>
+<link href="Assignment 3.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<script>
+var currentImg = 1;
+</script>
+
+<div id="container">
+  <header id="header">
+    <h1>Kilnaboy Drama Society</h1>
+  </header>
+  <div id="navbar">
+  <ul>
+    <li><a href="Index.html"><img src="images/img2.jpg" alt="main image" width="300" height="220" id="logo"/>Home</a></li>
+    <li><a href="History.html">History</a></li>
+    <li><a href="Events.html">Events</a></li>
+    <li><a href="Information.html">Information</a></li>
+    <li><a href="Gallery.html">Gallery</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+    <li><a href="Links.html">Links</a></li>
+  </ul>
+  </div>
+  <div id="slideshow">
+  	<img src="images/img1.jpg" width="600" height="250" alt="Current Slideshow Image" id="currentImage2"/>
+    <a href="javascript:swap(currentImg - 1),currentImg--;" id="prev">Prev</a>
+    <a href="javascript:swap(currentImg + 1),currentImg++;" id="next">Next</a>
+  </div>
+  <div id="mainii">
+    <section id="section1">Latest News: CASTING CALL: Looking for males between the ages of 45 - 50 to play the role of the father in our latest production of the Subject is roses, check on the information page to see how to apply										ply for the role.</section>
+    <section id="section2">“Ultimately one has to pity these poor souls who know every secret about writing, directing, designing, producing, and acting but are stuck in those miserable day jobs writing reviews. Will somebody help them, please?”</section>
+    <section id="section3">
+    <p class="links">Quick Links</p>
+     <a href="http://filmbase.ie/opportunities/castings/" class="links">Casting Calls</a>
+     <a href="Events.html" class="links">Latest Production</a>   
+     <a href="https://www.backstage.com/advice-for-actors/" class="links">Tips from the 'Pros'</a>
+     <a href="http://adci.ie/" class="links">Amateur Drama Council</a>
+     <a href="http://www.dli.ie/" class="links">Drama League</a>
+     
+     
+    
+      </section>
+  </div>
+
+  <footer id="footer">© 2017 K00200540</footer>
+</div>
+</body>
+</html>
